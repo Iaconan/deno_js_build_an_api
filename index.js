@@ -8,6 +8,6 @@ const app = new Application();
 app.use(router.routes());
 app.use(router.allowedMethods());
 
-console.log(`Server is running. Open https://localhost:${PORT}`);
+console.log(`Server is running. Open http://localhost:${PORT}`);
 
 await app.listen({ port: PORT});
